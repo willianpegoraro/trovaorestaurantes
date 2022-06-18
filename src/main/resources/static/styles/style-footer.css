@@ -1,0 +1,34 @@
+.contato{
+    grid-column: 2 / 2;
+}
+.redes-sociais{
+    grid-column: 3 / 3;
+}
+.lista__contato, 
+.lista__rede_social {
+    margin-top: 50px;
+    margin-left: 10%;
+    list-style: none;
+    color: aliceblue;
+}
+.contato-item img{
+    filter: invert(100%);
+    width: 35px;
+    margin-right: 6px;
+}
+.contato-item{
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;   
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+.contato-item:first-child{
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head insert="~{base :: head}">
+	<link th:href="@{/styles/quem-somos.css}" rel="stylesheet">	
+</head>
+<body>
+	<div th:replace="~{base :: btnTop}"></div>
+    <header th:replace="~{header_footer :: header }"></header>
+    <div class="container">
+        <div class="card">
+            <h1>QUEM SOMOS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Urna nec tincidunt praesent semper feugiat nibh sed. Bibendum neque egestas 
+                congue quisque egestas diam in arcu. Egestas diam in arcu cursus. Vestibulum sed arcu non odio euismod lacinia at quis. Nibh tellus molestie nunc non. Eu turpis egestas pretium aenean. Cursus eget nunc scelerisque viverra mauris in aliquam sem. Sed turpis tincidunt id aliquet risus. Hendrerit gravida rutrum quisque non tellus orci ac. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Libero nunc consequat interdum varius sit amet mattis. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices.</p>
+        </div>
+    </div>
+    <footer th:replace="~{header_footer :: footer}"></footer>
+	<div th:insert="~{base :: script}"></div>
+</body>
+</html>

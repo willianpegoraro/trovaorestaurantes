@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:insert="~{base :: head}">
+
+	<link th:href="@{/styles/style.css}" rel="stylesheet" type="text/css" >
+	<link th:href="@{/styles/style-conteudo-principal.css}" rel="stylesheet" type="text/css" >
+	<link th:href="@{/styles/galeria.css}" rel="stylesheet" type="text/css"  >
+</head>
+
+<body class="app">
+	<div th:replace="~{base :: btnTop}"></div>
+
+	<header th:replace="~{header_footer :: header}"></header>
+	<main class="container-conteudo">
+		<section class="conteudo">
+			<div class="conteudo-principal">
+				<div class="logo-center"></div>
+			</div>
+
+			<div class="conteudo-secundario">
+				<div class="lista">
+					<div class="lista-item">
+						<h1>QUALIDADE</h1>
+						<p>Qualidade no atendimento é o que cativa a boa experiência.
+							Aqui você encontra a melhor experiência em todas as áreas</p>
+					</div>
+					<div class="lista-item">
+						<h1>EXPERIÊNCIA GASTRONÔMICA</h1>
+						<p>A experiência gastronômica é garantida pela explosão de
+							sabores. Nossos ingredientes são naturais e frescos. Todo o
+							preparo é cuidado aos detalhes pelas mãos dos cozinheiros e
+							churrasqueiros</p>
+					</div>
+					<div class="lista-item">
+						<h1>DETALHES</h1>
+						<p>Os detalhes compõem a obra de arte como um todo, é por isso
+							que nossos alimentos são selecionados cuidando com os detalhes
+							que fazem toda a diferença</p>
+					</div>
+				</div>
+			</div>
+			<div class="conteudo-secundario"></div>
+
+			<!-- Galeria -->
+			<div class="galeria">
+				<div class="blur">
+					<div class="card-galeria">
+						<div class="card">
+							<p>GALERIA</p>
+						</div>
+					</div>
+					<!-- <div class="galeria-img">
+						<div class="galeria-um">
+						</div>
+						<div class="galeria-dois">
+						</div>
+					</div> -->
+				</div>
+			</div>
+
+		</section>
+
+	</main>
+	<footer th:replace="~{header_footer :: footer}"></footer>
+	<div th:insert="~{base :: script}"></div>
+</body>
+</html>
