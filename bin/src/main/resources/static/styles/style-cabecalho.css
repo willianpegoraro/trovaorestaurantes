@@ -1,0 +1,15 @@
+.cabecalho{
+    display: flex;
+    grid-area: cabecalho;
+    background-color: #0A0D12;
+    
+}
+.cabecalho a{
+    font-weight: 400;
+    color: #BB9065;
+    font-size: 22px;
+}
+
+.cabecalho a:hover{
+    color: white;
+}

@@ -1,0 +1,53 @@
+.galeria{
+    grid-column: 1 / 5;
+    height:912px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/barbecue-grill-close-up-professionally-cooking-food-on-an-open-fire-on-a-cast-iron-grate.jpg) 
+    no-repeat right;
+    background-size: cover;
+    display: flex;
+}
+.blur{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+    display: flex;
+}
+.card-galeria{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: -15px;
+    
+}
+.card{
+    width: 608px;
+    height: 86px;
+    background-color: #0A0D12;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card p{
+    color: #BB9065;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+.galeria-img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.galeria-um{
+    height: 390px;
+    width: 520px;
+    background-color: white;
+}
+
+.galeria-dois{
+    height: 390px;
+    width: 520px;
+    background-color: white;
+}

@@ -1,8 +1,18 @@
+.rodape{
+    grid-area: rodape;
+    background-color: #191919;
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    height: calc(100% + 40px);  
+    grid-template: rodape;
+}
 .contato{
     grid-column: 2 / 2;
+    height: 100%;
 }
 .redes-sociais{
     grid-column: 3 / 3;
+    height: 100%;
 }
 .lista__contato, 
 .lista__rede_social {
@@ -19,8 +29,7 @@
 .contato-item{
     align-items: center;
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 20px;   
+    margin-top: 10px;  
     font-size: 22px;
     letter-spacing: 3px;
     font-weight: lighter;

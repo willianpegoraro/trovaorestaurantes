@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app {
+    
+    display: grid;
+    grid-template-areas: 
+        "cabecalho"
+        "container-conteudo"
+        "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 60px auto auto;
+    font-family: 'Dosis', sans-serif;    font-style: normal;
+    
+}
+.container-conteudo{
+    grid-area: container-conteudo;
+   width: 100%;
+    
+}
+.rodape{
+    grid-area: rodape;
+    background-color: #191919;
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    height: 300px;
+    
+}
+.conteudo{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+/* ---Info cards*/
+.conteudo-secundario:nth-child(2){
+    background-color: #0A0D12;
+    grid-column: 1 / 5;
+    grid-row: 3 / 3;
+    height: 600px;
+    
+}
+
+.lista{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding-top: 150px;
+}
+
+.lista-item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 22px;
+}
+
+.lista-item h1{
+    color: #EBD503;
+    letter-spacing: 3px;
+}
+
+.lista-item p{
+    color: #BB9065 ;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 3px;
+    margin-top: 15%;
+    width: 80%;
+}
+
+/* -- Terceia linha*/
+.conteudo-secundario:nth-child(3){
+    grid-column: 1 / 5;
+    grid-row: 4 / 4;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background: linear-gradient(0deg, rgba(115,24,3,0.87), rgba(115,24,3,0.87)), url('/styles/images/area-interna.jpg') 
+        no-repeat center;
+    background-size: cover;
+    height: 338px;
+    
+}
+#myBtn{
+    height: 60px;
+    width: 60px;
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url('/styles/images/icons/up-arrow.png') center;
+    background-size: cover;
+}

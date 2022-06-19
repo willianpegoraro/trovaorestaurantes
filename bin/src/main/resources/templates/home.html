@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+
+	<link href="./styles/reset.css" rel="stylesheet">
+	<link href="./styles/style.css" rel="stylesheet">
+	<link href="./styles/style-cabecalho.css" rel="stylesheet">
+	<link href="./styles/style-conteudo-principal.css" rel="stylesheet">
+	<link href="./styles/galeria.css" rel="stylesheet">
+	
+	<link href="./styles/style-footer.css" rel="stylesheet">
+	<link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+	<!-- Fontes-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap" 
+	rel="stylesheet">
+</head>
+
+<body class="app">
+	<div th:replace="~{base :: btnTop}"></div>
+
+	<header th:replace="~{header_footer :: header}"></header>
+	<main class="container-conteudo">
+		<section class="conteudo">
+			<div class="conteudo-principal">
+				<div class="logo-center"></div>
+			</div>
+
+			<div class="conteudo-secundario">
+				<div class="lista">
+					<div class="lista-item">
+						<h1>QUALIDADE</h1>
+						<p>Qualidade no atendimento é o que cativa a boa experiência.
+							Aqui você encontra a melhor experiência em todas as áreas</p>
+					</div>
+					<div class="lista-item">
+						<h1>EXPERIÊNCIA GASTRONÔMICA</h1>
+						<p>A experiência gastronômica é garantida pela explosão de
+							sabores. Nossos ingredientes são naturais e frescos. Todo o
+							preparo é cuidado aos detalhes pelas mãos dos cozinheiros e
+							churrasqueiros</p>
+					</div>
+					<div class="lista-item">
+						<h1>DETALHES</h1>
+						<p>Os detalhes compõem a obra de arte como um todo, é por isso
+							que nossos alimentos são selecionados cuidando com os detalhes
+							que fazem toda a diferença</p>
+					</div>
+				</div>
+			</div>
+			<div class="conteudo-secundario"></div>
+
+			<!-- Galeria -->
+			<div class="galeria">
+				<div class="blur">
+					<div class="card-galeria">
+						<div class="card">
+							<p>GALERIA</p>
+						</div>
+					</div>
+					<!-- <div class="galeria-img">
+						<div class="galeria-um">
+						</div>
+						<div class="galeria-dois">
+						</div>
+					</div> -->
+				</div>
+			</div>
+
+		</section>
+
+	</main>
+	<footer th:replace="~{header_footer :: footer}"></footer>
+	<div th:insert="~{base :: script}"></div>
+</body>
+</html>

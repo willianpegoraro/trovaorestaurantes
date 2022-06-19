@@ -1,8 +1,7 @@
 .cabecalho{
-    display: flex;
-    grid-area: cabecalho;
+    align-items: center;
     background-color: #0A0D12;
-    
+    grid-template: cabecalho;
 }
 .cabecalho a{
     font-weight: 400;

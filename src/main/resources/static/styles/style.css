@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 .app {
-    
     display: grid;
     grid-template-areas: 
         "cabecalho"
@@ -13,21 +12,13 @@
     grid-template-columns: auto;
     grid-template-rows: 60px auto auto;
     font-family: 'Dosis', sans-serif;    font-style: normal;
-    
 }
 .container-conteudo{
     grid-area: container-conteudo;
    width: 100%;
     
 }
-.rodape{
-    grid-area: rodape;
-    background-color: #191919;
-    display: grid;
-    grid-template-columns: 20% 30% 50%;
-    height: 300px;
-    
-}
+
 .conteudo{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;

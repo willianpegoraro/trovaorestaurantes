@@ -6,7 +6,7 @@ var swiper = new Swiper(".mySwiper", {
   speed: 3000,
   autoplay: {
 
-      //reverseDirection: true,
+    //reverseDirection: true,
     delay: 2000,
     disableOnInteraction: false,
     pauseOnMouseEnter: true,
