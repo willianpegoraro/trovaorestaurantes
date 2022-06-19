@@ -7,8 +7,8 @@
     color: white;
     display: grid;
     grid-template-columns: 25% 25 25% 25%;
-    background: linear-gradient(0deg, rgba(115,24,3,0.81), rgba(115,24,3,0.81)), url('/styles/images/grill-background-barbecue-fire-grill-close-up-isolated-on-black-background.jpg') 
-    	no-repeat center;
+    background: linear-gradient(0deg, rgba(115,24,3,0.81), rgba(115,24,3,0.81)), url(../images/grill-background-barbecue-fire-grill-close-up-isolated-on-black-background.jpg) 
+        no-repeat center;
     background-size: cover;
     justify-content: center;
     align-items: center;

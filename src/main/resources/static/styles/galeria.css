@@ -1,7 +1,7 @@
 .galeria{
     grid-column: 1 / 5;
     height:912px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/styles/images/barbecue-grill-close-up-professionally-cooking-food-on-an-open-fire-on-a-cast-iron-grate.jpg') 
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/barbecue-grill-close-up-professionally-cooking-food-on-an-open-fire-on-a-cast-iron-grate.jpg) 
     no-repeat right;
     background-size: cover;
     display: flex;
