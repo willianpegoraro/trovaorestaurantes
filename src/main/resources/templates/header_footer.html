@@ -1,6 +1,6 @@
-<header th:fragment="header"
+<!-- <header th:fragment="header"
 	class="cabecalho d-flex justify-content-center">
-	<nav class="navbar-expand-lg ">
+	<nav class="navbar-expand-sm ">
 		<div class="container-fluid ">
 			<div class="collapse navbar-collapse " id="navbarNav">
 				<ul class="navbar-nav">
@@ -13,7 +13,26 @@
 				</ul>
 			</div>
 		</div>
+		
 	</nav>
+	
+</header> -->
+
+<header th:fragment="header">
+	<nav class="navbar">
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="home">INÍCIO</a></li>
+            <li><a href="quem-somos">QUEM SOMOS</a></li>
+            <li><a href="unidades">UNIDADES</a></li>
+          </ul>
+        </div>
+      </nav>
 </header>
 
 <footer th:fragment="footer" class="rodape">
