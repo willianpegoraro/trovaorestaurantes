@@ -43,3 +43,26 @@
     margin-bottom: 5px;
  }
  
+@media(max-width: 800px){
+    .card-unidade{
+        margin-left: 30px;
+        
+    }
+    .maps{
+        width: 500px;
+    }
+}
+@media(max-width: 560px){
+    .card-unidade{
+        margin-left: 10px;
+    }
+    .maps{
+        width: 500px;
+    }
+    .card-unidade ul{
+        flex-wrap: wrap;
+    }
+    .card-unidade li{
+        margin-bottom: 10px;
+    }
+}

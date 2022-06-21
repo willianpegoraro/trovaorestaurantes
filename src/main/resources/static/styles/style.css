@@ -128,6 +128,9 @@
     
 }
 @media (max-width: 700px){
+    .conteudo-secundario:nth-child(2) .lista-item{
+        width: 100%;
+    }
     .conteudo-secundario:nth-child(3){
         height: 200px;
     }
@@ -150,6 +153,7 @@
     }
     .conteudo-secundario:nth-child(2) .lista-item h1{
         font-size: 29px;
+        letter-spacing: 0.5px;
     }
     .conteudo-secundario:nth-child(3){
         height: 200px;
